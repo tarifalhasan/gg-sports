@@ -1,4 +1,8 @@
-import { AiFillTwitterSquare, AiFillLinkedin } from 'react-icons/ai';
+import {
+  AiFillTwitterSquare,
+  AiFillLinkedin,
+  AiOutlineInstagram,
+} from 'react-icons/ai';
 
 const Footer = ({ className }) => {
   return (
@@ -14,6 +18,9 @@ const Footer = ({ className }) => {
             </a>
             <a target="blank" href={'https://twitter.com/GGSportsLTD'}>
               <AiFillTwitterSquare size={36} />
+            </a>
+            <a target="blank" href={'https://www.instagram.com/gg_sportsltd/'}>
+              <AiOutlineInstagram size={36} />
             </a>
           </div>
           <h5 className=" text-2xl uppercase">GG Sports LTD</h5>

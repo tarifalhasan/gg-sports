@@ -16,7 +16,7 @@ import joeImg from '../assets/testimonial/Joe Snowdon.svg';
 export default function Testimonial() {
   const Data = [
     {
-      name: 'Edon putri',
+      name: 'Edon Putri',
       about:
         'George is very personal & professional; it is important for me to have someone representing me who understands me as a person & a player to help make important decisions along the way throughout my football career',
       club: 'Hartlepool FC',
